@@ -1,0 +1,137 @@
+html {
+	background-color: #080808FF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-tap-highlight-color: #00000000;
+}
+
+body {
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+	display: block;
+
+}
+
+div#main {
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+}
+
+div#pair {
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+	display: grid;
+}
+
+div#title {
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+}
+
+div#row {
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+h1, h2, p, a:link, a:visited, a:hover, a:active {
+	text-justify: center;
+	text-align: center;
+	font-family: monospace;
+	color: #FFFFFFFF;
+	text-decoration: none;
+}
+
+@media (orientation: landscape) {
+	div#pair {
+		padding: 2vw;
+	}
+
+	div#title {
+		padding-right: 8vw;
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	div#main {
+		padding-left: 30vw;
+		padding-right: 30vw;
+	}
+	
+	h1 {
+		font-size: 5vw;
+	}
+
+	h2 {
+		font-size: 2vw;
+		margin-top: -3.5vw;
+	}
+
+	p, a:link, a:visited, a:hover, a:active {
+		font-size: 1.5vw;
+	}
+
+	img#header {
+		height: 8vw;
+		width: 8vw;
+	}
+	img#link {
+		height: 6vw;
+		width: 6vw;
+		padding: 0.3vw;
+	}
+}
+
+@media (orientation: portrait) {
+	div#pair {
+		padding: 1vh;
+	}
+
+	div#title {
+		display: grid;
+	}
+
+	div#main {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+
+	h1 {
+		font-size: 5vh;
+	}
+
+	h2 {
+		font-size: 2vh;
+		margin-top: -3.5vh;
+	}
+
+	p, a:link, a:visited, a:hover, a:active {
+		font-size: 1.5vh;
+	}
+
+	img#header {
+		height: 10vh;
+		width: 10vh;
+	}
+	img#link {
+		height: 8vh;
+		width: 8vh;
+		padding: 0.4vh;
+	}
+}
