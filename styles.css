@@ -1,5 +1,6 @@
 html {
 	background-color: #080808FF;
+	background-image: url('/bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
