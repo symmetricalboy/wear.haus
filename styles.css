@@ -91,10 +91,11 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 	img#header {
 		height: auto;
 		width: 100%;
+		padding: -10%;
 	}
 	img#link {
-		height: 6vw;
-		width: 6vw;
+		height: 4vw;
+		width: 4vw;
 		padding: 0.3vw;
 	}
 }
@@ -129,10 +130,11 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 	img#header {
 		height: auto;
 		width: 100%;
+		padding: -10%;
 	}
 	img#link {
-		height: 8vh;
-		width: 8vh;
+		height: 6vh;
+		width: 6vh;
 		padding: 0.4vh;
 	}
 }
