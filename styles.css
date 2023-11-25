@@ -88,8 +88,8 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 	}
 
 	img#header {
-		height: 8vw;
-		width: 8vw;
+		height: auto;
+		width: 25vw;
 	}
 	img#link {
 		height: 6vw;
