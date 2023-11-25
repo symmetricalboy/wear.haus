@@ -90,7 +90,7 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 
 	img#header {
 		height: auto;
-		width: 80vw;
+		width: 100%;
 	}
 	img#link {
 		height: 6vw;
@@ -109,8 +109,8 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 	}
 
 	div#main {
-		padding-left: 10vw;
-		padding-right: 10vw;
+		padding-left: 14vw;
+		padding-right: 14vw;
 	}
 
 	h1 {
@@ -127,8 +127,8 @@ h1, h2, p, a:link, a:visited, a:hover, a:active {
 	}
 
 	img#header {
-		height: 10vh;
-		width: 10vh;
+		height: auto;
+		width: 100%;
 	}
 	img#link {
 		height: 8vh;
